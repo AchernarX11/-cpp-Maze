@@ -1,0 +1,3 @@
+﻿  mapBulid.cpp
+C:\Users\34452\Desktop\Code\Vs2022\other\迷宫\迷宫\mapBulid.cpp(21,22): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  迷宫.vcxproj -> C:\Users\34452\Desktop\Code\Vs2022\other\迷宫\x64\Debug\迷宫.exe
