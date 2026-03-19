@@ -11,3 +11,12 @@ Considering that simply walking through the maze is too boring (actually, this g
 1. The endpoint is no longer fixed, but randomly distributed in the right section of the map, and a fixed room has been made for the endpoint.
 2. Added an item "X" on the map. When the player touches the item, it will trigger one of seven different random effects.
 3. When the map is opened for the first time, dynamic map generation is performed to help players quickly locate important elements on the map.
+
+-迷宫v3.0-
+更新内容如下
+1.基于迷宫地图大小为25x101，不断清空打印地图出现的闪烁效果太过于强烈，于是对此方法做了优化，使用了前后双端打印方法来避免了闪烁效果
+2.在MapBuild类中添加了mazeOptimization方法，对dfs后的迷宫经行了优化，使迷宫路径更加多元化
+-Maze v3.0-
+Update contents are as follows:
+1. Based on a maze map size of 25x101, constantly clearing and printing the map caused the flickering effect to be too strong, so this method was optimized by using a front-and-back dual-end printing method to avoid the flickering effect.
+2. Added the mazeOptimization method in the MapBuild class, which optimizes the maze after DFS, making the maze paths more diverse.
